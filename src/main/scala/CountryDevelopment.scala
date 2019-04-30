@@ -6,6 +6,7 @@ object CountryDevelopment {
     val conf = new SparkConf().setAppName("Country Development Analysis").setMaster("local")
     val sc = new SparkContext(conf)
     val spark = SparkSession.builder().appName("Country Development Analysis").getOrCreate()
+    import spark.implicits._
 
     val edu = ParseEducationStatistics.parseEduStats(sc, spark, "data/ESIndicatorsAll.csv")
   }
