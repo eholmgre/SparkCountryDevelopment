@@ -1,0 +1,48 @@
+
+import org.apache.spark.rdd.RDD
+import org.apache.spark.sql.types.DoubleType
+
+object GDP_Correlations {
+  def main(args :Array[String]): Unit = {
+    import org.apache.spark.sql.SQLContext
+    import org.apache.spark.SparkContext
+    import org.apache.spark.SparkContext._
+    import org.apache.spark.SparkConf
+    import org.apache.spark
+    import org.apache.spark.sql.Row
+    import org.apache.spark.sql.SparkSession
+    import org.apache.spark.mllib.stat.Statistics
+
+    lazy val sparkSession: SparkSession = SparkSession.builder().master("raleigh").appName("corr").getOrCreate()
+
+    val df = sparkSession.read.format("csv").option("delimiter", ",").option("header", "true").load("hdfs://dover:45050/wdi/WDIFormat.csv")
+
+
+    var gdp=df.filter(df("Indicator Code")==="NY.GDP.PCAP.CD")
+    var unique=df.select("Indicator Code").distinct()
+
+
+    var list=Seq[Row]()
+    val correlations =df.select(df("Indicator Code"), df("Value"))
+    var g= correlations.toDF()//spark.createDataFrame(sparkContext.emptyRDD[Row], correlations.schema)
+
+    var i=0
+    unique.collect.foreach{h=>
+      i+=1
+      //println(i)
+      val otherVar= df.filter(df("Indicator Code")===h.mkString).withColumnRenamed("Value","Second_Value")
+      val b=gdp.join(otherVar, otherVar("Country Name") === gdp("Country Name")&& otherVar("Year") === gdp("Year"))
+      val c=b.filter((b("Value")=!="null") and (b("Second_Value")=!="null"))
+      val df2 = c.withColumn("Value", c("Value").cast(org.apache.spark.sql.types.DoubleType)).withColumn("Second_Value", c("Second_Value").cast(org.apache.spark.sql.types.DoubleType))
+      val rddX = df2.select(df2("Value")).rdd.map(_.getDouble(0))
+      val rddY = df2.select(df2("Second_Value")).rdd.map(_.getDouble(0))
+      val x=Statistics.corr(rddX, rddY, "pearson")
+      list = list :+ Row(h.mkString, x)
+    }
+
+
+    val dfFromArray =sparkSession.sparkContext.parallelize(list)
+    val ac=dfFromArray.coalesce(1)
+    ac.coalesce(1).saveAsTextFile("hdfs://dover:45050/wdi/correlations")
+  }
+}
