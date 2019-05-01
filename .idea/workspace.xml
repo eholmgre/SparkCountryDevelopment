@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b36e24e0-7f88-4c93-b9cc-f498eda2707d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/GDP_Correlations" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Bachelors_10YrIncrease" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/InternetUse_10YrIncrease.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Male75to79_10YrIncreases" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/CountryDevelopment-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/CountryDevelopment-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/CountryDevelopment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/CountryDevelopment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +18,11 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -40,16 +50,56 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/GDP_Correlations">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+            <state relative-caret-position="324">
+              <caret line="43" selection-start-line="43" selection-end-line="45" selection-end-column="72" />
               <folding>
                 <element signature="e#1#32#0" expanded="true" />
+                <element signature="e#142#180#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/InternetUse_10YrIncrease.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="31" column="42" selection-end-line="58" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Male75to79_10YrIncreases">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+              <folding>
+                <element signature="e#151#189#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Bachelors_10YrIncrease">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="56" column="67" selection-start-line="56" selection-start-column="67" selection-end-line="56" selection-end-column="67" />
+              <folding>
+                <element signature="e#1#32#0" expanded="true" />
+                <element signature="e#151#189#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,8 +109,18 @@
       <list>
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/GDP_Correlations" />
+        <option value="$PROJECT_DIR$/src/main/scala/Recent_Increases" />
+        <option value="$PROJECT_DIR$/src/main/scala/Bachelors_10YrIncrease" />
+        <option value="$PROJECT_DIR$/src/main/scala/InternetUse_10YrIncrease" />
+        <option value="$PROJECT_DIR$/src/main/scala/Male75to79_10YrIncreases" />
       </list>
     </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="72" />
+    <option name="y" value="23" />
+    <option name="width" value="1591" />
+    <option name="height" value="941" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -71,27 +131,27 @@
         <subPane>
           <expand>
             <path>
-              <item name="sparkcountrydevelopment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CountryDevelopment" type="b2602c69:ProjectViewProjectNode" />
               <item name="SparkCountryDevelopment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sparkcountrydevelopment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CountryDevelopment" type="b2602c69:ProjectViewProjectNode" />
               <item name="SparkCountryDevelopment" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sparkcountrydevelopment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CountryDevelopment" type="b2602c69:ProjectViewProjectNode" />
               <item name="SparkCountryDevelopment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sparkcountrydevelopment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CountryDevelopment" type="b2602c69:ProjectViewProjectNode" />
               <item name="SparkCountryDevelopment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sparkcountrydevelopment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CountryDevelopment" type="b2602c69:ProjectViewProjectNode" />
               <item name="SparkCountryDevelopment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -124,9 +184,34 @@
     </option>
   </component>
   <component name="SbtLocalSettings">
-    <option name="projectSyncType">
+    <option name="availableProjects">
       <map>
-        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="CountryDevelopment" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="sparkcountrydevelopment [file:/Users/matthewgorbett/projects/455/SparkCountryDevelopment/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="CountryDevelopment-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="2422879617" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
       </map>
     </option>
   </component>
@@ -137,10 +222,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111000" />
+    <option name="totallyTimeSpent" value="12337000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="71" y="27" width="1591" height="947" extended-state="0" />
+    <frame x="72" y="23" width="1591" height="941" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -150,11 +235,11 @@
       <window_info id="Capture Tool" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2498386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.32865497" />
+      <window_info anchor="bottom" id="Build" weight="0.32865497" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" weight="0.32905483" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32982457" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.33215547" />
       <window_info anchor="bottom" id="Java Enterprise" weight="0.32905483" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
@@ -198,12 +283,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/GDP_Correlations">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/VariableIncreases.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Bachelors_10YrIncrease">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="56" column="67" selection-start-line="56" selection-start-column="67" selection-end-line="56" selection-end-column="67" />
           <folding>
             <element signature="e#1#32#0" expanded="true" />
+            <element signature="e#151#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/InternetUse_10YrIncrease.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="31" column="42" selection-end-line="58" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Male75to79_10YrIncreases">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding>
+            <element signature="e#151#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/GDP_Correlations">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="43" selection-start-line="43" selection-end-line="45" selection-end-column="72" />
+          <folding>
+            <element signature="e#1#32#0" expanded="true" />
+            <element signature="e#142#180#0" expanded="true" />
           </folding>
         </state>
       </provider>
