@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b36e24e0-7f88-4c93-b9cc-f498eda2707d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Bachelors_10YrIncrease" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/InternetUse_10YrIncrease.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Male75to79_10YrIncreases" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/CountryDevelopment-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/CountryDevelopment-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/CountryDevelopment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/CountryDevelopment.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b36e24e0-7f88-4c93-b9cc-f498eda2707d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/GDP_Correlations">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="43" selection-start-line="43" selection-end-line="45" selection-end-column="72" />
+            <state relative-caret-position="425">
+              <caret line="45" selection-start-line="45" selection-end-line="45" selection-end-column="72" />
               <folding>
                 <element signature="e#1#32#0" expanded="true" />
                 <element signature="e#142#180#0" expanded="true" />
@@ -63,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/InternetUse_10YrIncrease.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="31" column="42" selection-end-line="58" selection-end-column="1" />
+            <state relative-caret-position="446">
+              <caret line="51" column="5" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="51" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -72,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Male75to79_10YrIncreases">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+            <state relative-caret-position="439">
+              <caret line="51" column="5" lean-forward="true" selection-start-line="26" selection-end-line="51" selection-end-column="5" />
               <folding>
                 <element signature="e#151#189#0" expanded="true" />
               </folding>
@@ -81,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Bachelors_10YrIncrease">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="56" column="67" selection-start-line="56" selection-start-column="67" selection-end-line="56" selection-end-column="67" />
+            <state relative-caret-position="472">
+              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
               <folding>
                 <element signature="e#1#32#0" expanded="true" />
                 <element signature="e#151#189#0" expanded="true" />
@@ -222,7 +214,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12337000" />
+    <option name="totallyTimeSpent" value="15266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="72" y="23" width="1591" height="941" extended-state="0" />
@@ -290,41 +282,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Bachelors_10YrIncrease">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/GDP_Correlations">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="56" column="67" selection-start-line="56" selection-start-column="67" selection-end-line="56" selection-end-column="67" />
+        <state relative-caret-position="425">
+          <caret line="45" selection-start-line="45" selection-end-line="45" selection-end-column="72" />
           <folding>
             <element signature="e#1#32#0" expanded="true" />
-            <element signature="e#151#189#0" expanded="true" />
+            <element signature="e#142#180#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/InternetUse_10YrIncrease.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="31" column="42" selection-end-line="58" selection-end-column="1" />
+        <state relative-caret-position="446">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="51" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Male75to79_10YrIncreases">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        <state relative-caret-position="439">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="26" selection-end-line="51" selection-end-column="5" />
           <folding>
             <element signature="e#151#189#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/GDP_Correlations">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Bachelors_10YrIncrease">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="43" selection-start-line="43" selection-end-line="45" selection-end-column="72" />
+        <state relative-caret-position="472">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
             <element signature="e#1#32#0" expanded="true" />
-            <element signature="e#142#180#0" expanded="true" />
+            <element signature="e#151#189#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -25,19 +25,19 @@ object GDP_Correlations {
     var g= correlations.toDF()//spark.createDataFrame(sparkContext.emptyRDD[Row], correlations.schema)
 
     var i=0
-      unique.collect.foreach{h=>
-        i+=1
-        //println(i)
-        val otherVar= df.filter(df("Country Name")===h.mkString)
-        val df2 = otherVar.withColumn("Year", otherVar("Year").cast(org.apache.spark.sql.types.DoubleType))
-        //df2.show()
-        //println(df2.schema)
+    unique.collect.foreach{h=>
+      i+=1
+      //println(i)
+      val otherVar= df.filter(df("Country Name")===h.mkString)
+      val df2 = otherVar.withColumn("Year", otherVar("Year").cast(org.apache.spark.sql.types.DoubleType))
+      //df2.show()
+      //println(df2.schema)
       val df3=df2.filter(df2("Year")>2007)
       //df3.show()
       val df4=df3.sort(df3("Year"))
       val df5=df4.filter(df4("Indicator Code")==="IT.NET.USER.ZS")
-        val data=df5.filter(df5("Value")=!="null")
-        //data.show()
+      val data=df5.filter(df5("Value")=!="null")
+      //data.show()
       var x=data.count()
 
       if(x>1){
